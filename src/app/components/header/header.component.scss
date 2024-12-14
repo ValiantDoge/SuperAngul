@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    padding-inline: 16px;
+    padding-block: 12px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+nav{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+
+    > span{
+        cursor: pointer;
+        &:hover{
+            color:#c0bebe;
+        }
+    }
+
+    .links button {
+        cursor: pointer;
+        border: none;
+        border-radius: 2px;
+        padding: 6px;
+        color:rgba(255, 255, 255, 0.87);
+        background-color: #007BFF;
+
+        &:hover{
+            background-color: #0661c2;
+        }
+    }
+    
+}
+
+
+
+
